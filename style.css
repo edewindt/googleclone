@@ -48,3 +48,18 @@ a:nth-child(2){
     margin-right: 1.5rem;
     cursor: pointer;
 }
+.logo-container{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search{
+    margin-top: 2rem;
+    width: calc(100vw - 2rem);
+    max-width: 35rem;
+    height: 2.8rem;
+    border-radius: 3rem;
+    border: .05rem solid rgba(128, 128, 128, 0.307);
+}
