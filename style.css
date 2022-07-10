@@ -107,5 +107,12 @@ a:nth-child(2){
     box-shadow: 0 0 3px rgba(54, 54, 54, 0.423);
 }
 footer{
-    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    position: relative;
+}
+footer>p{
+    position: absolute;
+    top:20rem
 }
